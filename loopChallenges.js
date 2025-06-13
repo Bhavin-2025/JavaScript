@@ -66,6 +66,17 @@ for(let c =0;c<cities.length;c++){
     cityList.push(myCity)
 }
 
-console.log(cityList);
+// console.log(cityList);
+
+
+let student = {
+  name: "Bhavin",
+  age: 21,
+  city: "Surat"
+};
+
+for (let key in student) {
+  console.log(key + ":", student[key]);
+}
 
 
