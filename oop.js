@@ -53,6 +53,23 @@ let myCar = new Car("Toyota","Corolla")
 
 
 let vehOne =new Vehicle("Toyota","Corolla")
-console.log(vehOne.make);
+// console.log(vehOne.make);
 
 
+
+
+//  Getters and Setters
+
+class Employee{
+    constructor(name, salary){
+        this.name = name;
+        this._salary = salary
+    }
+
+     get salary(){
+        
+     }
+}
+
+let emp = new Employee("Alice",50000);
+console.log(emp._salary);
